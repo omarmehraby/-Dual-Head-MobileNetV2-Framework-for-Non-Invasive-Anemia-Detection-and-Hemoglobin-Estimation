@@ -1,0 +1,43 @@
+# Patient images - never commit (privacy)
+Anemic/
+Non-anemic/
+
+# Raw image files anywhere except results/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+
+# Allow result figures used in README
+!results/*.png
+
+# Patient data and metadata
+*.xlsx
+*.xls
+*.csv
+
+# Dataset splits
+splits/
+
+# Experiment outputs (model weights, predictions, full figure sets)
+exp/
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
