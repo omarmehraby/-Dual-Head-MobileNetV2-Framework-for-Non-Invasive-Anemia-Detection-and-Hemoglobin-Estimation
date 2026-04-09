@@ -53,15 +53,7 @@ The decision threshold is clinically tuned to **maximize sensitivity** — missi
 
 **MTLMobileNetV2** — MobileNetV2 backbone (ImageNet pretrained) with two independent output heads:
 
-```
-Input Image (320×320)
-       │
-  MobileNetV2 Backbone (ImageNet pretrained)
-       │
-  Global Average Pooling
-       ├──→ Classification Head → sigmoid → anemic / non-anemic
-       └──→ Regression Head    → linear  → Hb (g/dL)
-```
+![Architecture](results/architecture.png)
 
 | Component | Detail |
 |---|---|
