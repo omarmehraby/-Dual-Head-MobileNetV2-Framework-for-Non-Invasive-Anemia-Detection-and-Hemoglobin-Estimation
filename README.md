@@ -268,7 +268,7 @@ openpyxl>=3.1.0
 If you use this work, please cite:
 
 ```
-Omar Mehraby, Bouali Et-taibi, Rania Abchir,
+Omar Mehraby, Dr.Bouali Et-taibi, Dr.Rania Abchir,
 "A Lightweight Dual-Head MobileNetV2 Framework for Non-Invasive Anemia Detection
 and Hemoglobin Estimation"
 Accepted at ISIoT 2026 Conference
